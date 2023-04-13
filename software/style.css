@@ -1,66 +1,88 @@
 .navbar{
-     font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;;
 }
- 
+
 
 li{
-    display: inline;
+   display: inline;
 }
 
 li {
-    float: left;
+   float: left;
 }
-  
+ 
 a {
-    display: block;
-    padding: 80px;
-    background-color: #F5F5F5;
-    
+   display: block;
+   padding: 80px;
+   background-color: #F5F5F5;
 }
 
 ul {
-    background-color: #4d4141;
+   background-color: #4d4141;
 }
 
 ul {
-    display: flex;
-    margin: -10px;
-    overflow: hidden;
-    background-color: #BAD7E9;
+   display: flex;
+   margin: -9px;
+   overflow: hidden;
+   background-color: #BAD7E9;
 }
-  
+ 
 li {
-    float: center;
+   float: center;
 }
-  
+ 
 li a {
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-left: 15px;
-    display: flex;
-    color: #4D455D;
-    text-align: center;
-    padding: 5px 20px;
-    text-decoration: none;
+   margin-top: 14px;
+   border-radius: 10px;
+   margin-left: 15px;
+   display: flex;
+   color: #4D455D;
+   text-align: center;
+   padding: 4px 17px;
+   text-decoration: none;
 }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #6F687B;
+ 
+li a:hover {
+   background-color: #6F687B;
 }
 
 li a:hover {
-    color: #FFFFFF;
-  }
-  
-
-/* li {
-    border-right: 1px solid #bbb;
-    border-radius: 10px;
-} */
+   color: #FFFFFF;
+}
   
 li:last-child {
-    border-right: none;
-  }
+   border-right: none;
+} 
 
+/* CSS da tabela */
+h1{
+    text-align: center;
+    }
+    
+table, th, td {
+    border: 2px solid red;
   
+}
+    
+table {
+    margin: auto;
+    border-radius: 8px;
+    padding: 50px;
+    border-collapse: collapse;
+}
+    
+th, td{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+   border-radius: 100px;
+}
+
+th{
+    font-weight: bold;
+}
+    
+    
+
+    
