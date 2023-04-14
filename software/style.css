@@ -1,5 +1,5 @@
 .navbar{
-    font-family: 'Poppins', sans-serif;;
+   font-family: 'Poppins', sans-serif ; 
 }
 
 
@@ -26,6 +26,7 @@ ul {
    margin: -9px;
    overflow: hidden;
    background-color: #BAD7E9;
+   box-shadow: 3px 3px 3px 1px rgb(156, 156, 168);
 }
  
 li {
@@ -41,6 +42,7 @@ li a {
    text-align: center;
    padding: 4px 17px;
    text-decoration: none;
+   box-shadow: 5px 3px 5px 1px  rgb(115, 124, 128);
 }
  
 li a:hover {
@@ -61,28 +63,45 @@ h1{
     }
     
 table, th, td {
-    border: 2px solid red;
-  
+    border: 1px solid #4D455D ;
 }
     
 table {
-    margin: auto;
+   margin-top: 150px;
+   margin-left: 430px;
     border-radius: 8px;
     padding: 50px;
     border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 1px 2px 5px  rgb(115, 124, 128);
 }
     
 th, td{
-    padding: 10px;
     text-align: center;
     width: 120px;
-   border-radius: 100px;
 }
 
 th{
     font-weight: bold;
 }
     
-    
+table {
+   border-radius: 1em;
+   overflow: hidden;
+}
+ 
+ th, td {
+   padding: 1em;
+   background: #F5F5F5;
+}
+ 
+tr th {
+   background-color: #636279;
+   color: #FFFFFF;
+}
 
-    
+tr td button{
+   border-radius: 8px;
+   height: 28px;
+   padding-top: -9px;
+}
