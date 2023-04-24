@@ -62,73 +62,36 @@ li:last-child {
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Set a style for all buttons */
+
 .container {
-    margin-top: 100px;
-}
-
-button {
-    position: absolute;
-    width: 200px;
-    height: 60px;
-    left: 650px;
-    top: 500px;
-    
-    background: rgba(186, 215, 233, 0.68);
-    border-radius: 13px;
+    margin-top: 350px;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.nome{
-    position: absolute;
-    width: 220px;
-    height: 40px;
-    left: 600px;
-    top: 249px;
-    padding-top: 20px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 30px;
-    
-    color: #4D455D;
 
+button {   
+         background-color: rgba(186, 215, 233, 0.68);;   
+         width: 100px;  
+          color: #4D455D;   
+          padding: 15px;   
+          margin: 10px 0px;   
 }   
 
-.preco{
-    position: absolute;
-    width: 283px;
-    height: 40px;
-    left: 600px;
-    top: 350px;
-    padding-top: 15px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 200px;
-    font-size: 30px;
-    line-height: 45px;
 
-    color: #4D455D;
-
+input[type=text], input[type=password] {   
+          width: 200px;   
+          margin: 8px 90;  
+          padding: 12px 20px;   
+          display: block;   
+          border: 2px solid ;  
+          box-sizing: border-box;   
+          border-radius: 10px;
 }
 
-.nome input{
-    position: absolute;
-width: 350px;
-height: 40px;
-left: -3px;
-top: 64px;
 
-background: rgba(186, 215, 233, 0.3);
-border-radius: 13px;
-
-}
-
-.preco input{
-    position: absolute;
-    width: 350px;
-    height: 40px;
-    left: -3px;
-    top: 64px;
-    
-    background: rgba(186, 215, 233, 0.3);
-    border-radius: 13px;
-}
+       
