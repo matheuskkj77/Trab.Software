@@ -58,7 +58,7 @@ li:last-child {
     border-right: none;
 } 
 
-
+/* parallax css */
 body {
     font-family: Open Sans;
     font-size: 18px;
@@ -74,9 +74,9 @@ body {
     line-height: 200px;
   }
   .MainContainer {
+    margin-top: 9px;
     perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100vh;
+    height: 90vh;
     overflow-x: hidden;
     overflow-y: scroll;
   }
@@ -95,11 +95,12 @@ body {
     margin: 75px 0;
   }
   .ParallaxContainer {
+    margin-top: 100px;
     display: flex;
     flex: 1 0 auto;
     position: relative;
     z-index: -1;
-    height: 200vh;
+    height: 150vh;
     justify-content: center;
     align-items: center;
     transform: translateZ(-1px) scale(2);
