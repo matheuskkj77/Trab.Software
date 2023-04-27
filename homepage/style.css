@@ -65,7 +65,6 @@ body {
     line-height: 28px;
   }
   h1 {
-    box-shadow: 50px rgb(156, 156, 168);
     letter-spacing: -15px;
     color: white;
     text-align: center;
@@ -94,14 +93,13 @@ body {
   p {
     margin: 75px 0;
     font-family: 'Poppins', sans-serif;
-    
   }
   .ParallaxContainer {
     margin-top: 100px;
     display: flex;
     flex: 1 0 auto;
     position: relative;
-    height: 150vh;
+    height: 130vh;
     justify-content: center;
     align-items: center;
     transform: translateZ(-1px) scale(2);
