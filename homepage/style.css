@@ -83,13 +83,12 @@ body {
     position: relative;
     display: block;
     background-color: white;
-    z-index: 1;
   }
   .Content {
-    max-width: 750px;
+    max-width: 520px;
     margin: 0 auto;
     padding: 100px 0;
-    margin-right: 40px;
+    margin-right: 200px;
     margin-top: 500px;
     font-size: 15px;
   }
@@ -99,7 +98,7 @@ body {
     line-height: 30px;
     justify-content: right;
     text-align: left;
-    margin: 40px 0;
+    margin: 9px 0;
     font-family: 'Poppins', sans-serif;
   }
   .ParallaxContainer {
@@ -113,6 +112,12 @@ body {
     transform: translateZ(-1px) scale(2);
     background: url(./homepage.svg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
     background-origin: content-box;
   }
+
+.imagens{
+  position: absolute;
+  left: 100px;
+  width: 300px;
+  padding: 10px;
+}
